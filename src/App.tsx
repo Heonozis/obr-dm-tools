@@ -20,7 +20,7 @@ export function App() {
 
   if (sceneReady) {
     return playerRole === 'GM' && <Body /> || (
-      <Header subtitle="Only Dungeon Master ca use this tool" />
+      <Header subtitle="Only Dungeon Master can use this tool" />
     );
   } else {
     // Show a basic header when the scene isn't ready
